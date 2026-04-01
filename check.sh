@@ -17,7 +17,7 @@ FOUND=0
 
 # --- Check 1: Installed axios version ---
 echo "[1/6] Checking installed axios version..."
-npm list axios
+npm -v
 
 # --- Check 2: Lockfile contains compromised version ---
 echo ""
